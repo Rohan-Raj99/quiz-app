@@ -13,15 +13,46 @@ home
 
 <style>
 
-  #mybtn {
+ body{
 
+  background-color: cornflowerblue;
+ }
+
+ #mydiv{
+
+  background-color: orangered ; 
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 30px;
+
+}
+  
+  
+
+
+  #mybtn {
     background-color: green;
-    font-size: 10px;
+    font-size: 23px;
     text-align: center;
     font-weight: bold;
-    
-  }
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+#mybtn a {
+
+  color: black;
+  cursor: pointer;
+}
+
 </style>
+
+<div id="mydiv">
 
 
 <!-- Modal -->
@@ -75,7 +106,10 @@ home
 
     </form>
 
-<div class="h1">To start click Start below!</div>
+</div>
+
+
+<!-- <div class="h1">To start click Start below!</div> -->
 <hr>
 {% for obj in object_list %}
 
