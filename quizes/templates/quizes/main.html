@@ -11,6 +11,19 @@ home
 
 {% block content %}
 
+<style>
+
+  #mybtn {
+
+    background-color: green;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+</style>
+
+
 <!-- Modal -->
 <div class="modal fade" id="quizStartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -52,8 +65,14 @@ home
           <div class="form-group">
             <label for="name">Name</label>
             <input type="name" class="form-control" id="stuname">
-            <button> Sumbit mjk</button>
           </div>
+          <div>
+
+            <button id="mybtn"> <a href="testhome.html"> Sumbit</a> </button>
+          
+          </div>
+
+
     </form>
 
 <div class="h1">To start click Start below!</div>
