@@ -5,19 +5,10 @@ from django.views.generic import ListView
 from django.http import JsonResponse, request
 from questions.models import Question, Answer
 from results.models import Result
-from django.http import HttpResponse
-from django.forms import inlineformset_factory
-from django.contrib.auth.forms import UserCreationForm
+
 
 #create your view here
-def registrationpage(request):
-    form UserCreationForm()
-    context = {}
-    return render(request, 'quizes/register.html',context)
 
-def loginpage(request):
-    context={}
-    return render(request, 'quizes/login.html',context)
 
 class QuizListView(ListView):
     model = Quiz 
